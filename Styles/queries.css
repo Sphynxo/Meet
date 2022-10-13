@@ -1,0 +1,317 @@
+@media (max-width: 86em) {
+  .heading {
+    font-size: 4.8rem;
+  }
+}
+
+@media (max-width: 76em) {
+  .download:link,
+  .download:visited,
+  .what-is-it:link,
+  .footer-download:link,
+  .footer-download:visited,
+  .what-is-it:visited {
+    font-size: 1.4rem;
+    padding: 1.2rem 2.4rem;
+  }
+}
+
+@media (max-width: 67em) {
+  .heading {
+    font-size: 4.4rem;
+  }
+  .download:link,
+  .download:visited,
+  .what-is-it:link,
+  .footer-download:link,
+  .footer-download:visited,
+  .what-is-it:visited {
+    font-size: 1.4rem;
+    padding: 1.2rem 2.4rem;
+  }
+
+  .line-one {
+    height: 6.4rem;
+  }
+
+  .gallery {
+    max-width: 90rem;
+  }
+
+  .album img {
+    max-width: 20rem;
+  }
+
+  .footer-content {
+    max-width: 90rem;
+  }
+}
+
+@media (max-width: 63em) {
+  .heading {
+    font-size: 4rem;
+  }
+  .download:link,
+  .download:visited,
+  .what-is-it:link,
+  .footer-download:link,
+  .footer-download:visited,
+  .what-is-it:visited {
+    font-size: 1.4rem;
+    padding: 1.2rem 2rem;
+  }
+
+  .line-one {
+    height: 6.4rem;
+  }
+
+  .gallery {
+    max-width: 90rem;
+  }
+
+  .album img {
+    max-width: 20rem;
+  }
+
+  .footer-content {
+    max-width: 90rem;
+  }
+}
+
+@media (max-width: 57em) {
+  .heading {
+    font-size: 3.2rem;
+  }
+  .download:link,
+  .download:visited,
+  .what-is-it:link,
+  .footer-download:link,
+  .footer-download:visited,
+  .what-is-it:visited {
+    font-size: 1.2rem;
+    padding: 0.8rem 0.8rem;
+  }
+
+  .line-one {
+    height: 5.6rem;
+  }
+
+  .gallery {
+    max-width: 80rem;
+  }
+
+  .album img {
+    max-width: 16rem;
+  }
+
+  .footer-content {
+    max-width: 80rem;
+  }
+
+  .footer-content h2 {
+    font-size: 3.2rem;
+  }
+
+  .footer-content p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 63em) {
+  .heading {
+    font-size: 4rem;
+  }
+  .download:link,
+  .download:visited,
+  .what-is-it:link,
+  .footer-download:link,
+  .footer-download:visited,
+  .what-is-it:visited {
+    font-size: 1.4rem;
+    padding: 1.2rem 2rem;
+  }
+
+  .line-one {
+    height: 6.4rem;
+  }
+
+  .gallery {
+    max-width: 90rem;
+  }
+
+  .album img {
+    max-width: 20rem;
+  }
+
+  .footer-content {
+    max-width: 90rem;
+  }
+}
+
+@media (max-width: 50em) {
+  html {
+    font-size: 50%;
+  }
+
+  .avt-one {
+    margin-left: 0;
+  }
+
+  .group-chat {
+    margin: 0 auto;
+    max-width: 80rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+
+  .avt-two {
+    margin-top: 0rem;
+  }
+
+  .description {
+    order: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    max-width: 46rem;
+    margin: 0 auto;
+  }
+
+  .heading {
+    font-size: 4.8rem;
+  }
+  .download:link,
+  .download:visited,
+  .what-is-it:link,
+  .footer-download:link,
+  .footer-download:visited,
+  .what-is-it:visited {
+    font-size: 1.6rem;
+    padding: 1.6rem 3rem;
+  }
+
+  .line-one {
+    height: 5.6rem;
+  }
+
+  .gallery {
+    max-width: 80rem;
+  }
+
+  .album img {
+    max-width: 16rem;
+  }
+
+  footer {
+    padding-top: 5.6rem;
+    height: 40rem;
+  }
+
+  .footer-content {
+    max-width: 80rem;
+    flex-direction: column;
+    gap: 3.2rem;
+    text-align: center;
+  }
+
+  .footer-content h2 {
+    font-size: 3.2rem;
+  }
+
+  .footer-content p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 30em) {
+    html {
+      font-size: 50%;
+    }
+  
+    .avt-one {
+      margin-left: 0;
+    }
+  
+    .group-chat {
+      margin: 0 auto;
+      max-width: 48rem;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+    }
+  
+    .avt-two {
+      margin-top: 0rem;
+    }
+  
+    .description {
+      order: 2;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 2;
+      max-width: 46rem;
+      margin: 0 auto;
+    }
+  
+    .heading {
+      font-size: 4.8rem;
+    }
+
+    .links {
+        flex-direction: column;
+        width: 40%;
+        align-items: center;
+        margin: 3.2rem auto;
+    }
+
+    .download:link,
+    .download:visited,
+    .what-is-it:link,
+    .footer-download:link,
+    .footer-download:visited,
+    .what-is-it:visited {
+      font-size: 1.6rem;
+      padding: 1.6rem 3rem;
+    }
+  
+    .line-one {
+      height: 5.6rem;
+    }
+  
+    .gallery {
+      max-width: 43.2rem;
+    }
+
+    .album {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+  
+    .album img {
+      max-width: 16rem;
+      
+    }
+  
+    footer {
+      padding-top: 5.6rem;
+      height: 40rem;
+    }
+  
+    .footer-content {
+      max-width: 80rem;
+      flex-direction: column;
+      gap: 3.2rem;
+      text-align: center;
+    }
+  
+    .footer-content h2 {
+      font-size: 3.2rem;
+    }
+  
+    .footer-content p {
+      font-size: 1.6rem;
+    }
+  }
+  
